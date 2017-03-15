@@ -1,0 +1,12 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<app>Loading...</app>
+
+@section scripts {
+    <environment names="Development">
+        <script defer src="~/dist/vendor.js" asp-append-version="true"></script>
+    </environment>
+    <script defer src="~/dist/main.js" asp-append-version="true"></script>
+}

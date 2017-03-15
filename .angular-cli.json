@@ -1,0 +1,20 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "project": {
+    "name": "AngularBasicTemplate"
+  },
+  "apps": [
+    {
+      "root": "ClientApp"
+    }
+  ],
+  "test": {
+    "karma": {
+      "config": "./ClientApp/test/karma.conf.js"
+    }
+  },
+  "defaults": {
+    "styleExt": "css",
+    "component": {}
+  }
+}
