@@ -8,7 +8,7 @@
     "emitDecoratorMetadata": true,
     "skipDefaultLibCheck": true,
     "lib": [ "es6", "dom" ],
-    "types": [ "node", "jasmine" ]
+    "types": [ "node" ]
   },
-  "exclude": [ "bin", "node_modules", "ClientApp/test/**" ]
+  "exclude": [ "bin", "node_modules" ]
 }
