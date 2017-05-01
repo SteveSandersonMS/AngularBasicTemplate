@@ -24,7 +24,7 @@ You can now launch the application as usual via Ctrl+F5, or with debugging enabl
 
 ### To build a production-ready deployable site
 
-Run `dotnet publish -c Release` from the command line, or use Visual Studio's *Publish* UI.
+Run `dotnet publish -c Release` from the command line, or use Visual Studio's *Publish* UI. This produces an ahead-of-time (AoT) compiled and minified Angular application, with the .NET code built in *release* mode.
 
 ## Future plans
 
