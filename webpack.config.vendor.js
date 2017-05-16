@@ -30,6 +30,7 @@ module.exports = (env) => {
                 name: '[name]_[hash]'
             }),
             new webpack.ContextReplacementPlugin(/\@angular\b.*\b(bundles|linker)/, path.join(__dirname, './ClientApp')), // Workaround for https://github.com/angular/angular/issues/11580
+            new webpack.ContextReplacementPlugin(/angular(\\|\/)core(\\|\/)@angular/, path.resolve(__dirname, './ClientApp')) // Similar to above, for similar reasons
         ]
     }];
 }
